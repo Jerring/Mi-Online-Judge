@@ -4,8 +4,8 @@ public class Problem_00003 {
         String[] array = line.split("-");
         char[] a = array[0].toCharArray();
         char[] b = array[1].toCharArray();
-        int i = 0, ai, bi;
         // 模拟竖式计算
+        int i = 0, ai, bi;
         for (; i < b.length; ++i) {
             ai = a.length - 1 - i;
             bi = b.length - 1 - i;
