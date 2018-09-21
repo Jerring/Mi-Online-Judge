@@ -7,9 +7,9 @@ public class Input {
 
     public static void input(Class clazz) {
         try (Scanner scanner = new Scanner(new FileInputStream("input.txt"))) {
+            Method method = clazz.getDeclaredMethod("solution", String.class);
+            method.setAccessible(true);
             while (scanner.hasNext()) {
-                Method method = clazz.getDeclaredMethod("solution", String.class);
-                method.setAccessible(true);
                 String line = scanner.nextLine();
                 String result = (String) method.invoke(null, line);
                 System.out.println(result);
