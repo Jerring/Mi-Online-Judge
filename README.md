@@ -13,4 +13,5 @@ Problem_00010：f[1] = 1，f[2] = 2，f[n] = f[n - 1] + f[n -2]。
 Problem_00011：构建计数桶。  
 Problem_00014：二分查找。  
 Problem_00016：运用栈计算中缀表达式。  
-Problem_00024：01背包。 
+Problem_00024：01背包。  
+Problem_00030：简单模拟。 
