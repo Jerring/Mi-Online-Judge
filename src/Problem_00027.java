@@ -1,4 +1,4 @@
-public class Problem_00024 {
+public class Problem_00027 {
 
     private static String solution(String line) {
         String[] array = line.split(";");
@@ -33,6 +33,6 @@ public class Problem_00024 {
     }
 
     public static void main(String[] args) {
-        Input.input(Problem_00024.class);
+        Input.input(Problem_00027.class);
     }
 }
