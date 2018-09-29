@@ -24,4 +24,5 @@ Problem_00085：动态规划。
 Problem_00098：排序，从小到大依次放弃。  
 Problem_00102：栈的运用。因为栈中只用存放'm'，所以可以用一个变量计数来模拟栈。   
 Problem_00107：快速幂+逆元。根据逆元的知识，a / b % MOD 可以表示成 a * b<sup>MOD-2</sup> % MOD。则 f(n) = (3<sup>n+1</sup> - 1) / 2 % MOD 的值为(3<sup>n+1</sup> - 1) * 2<sup>MOD-2</sup> % MOD。  
+Problem_00110：按要求进行进制转换即可。  
 Problem_00113：从小到大排序，按要求模拟。 
