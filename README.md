@@ -28,6 +28,7 @@ Problem_00064：贪心。
 Problem_00067：简单模拟，注意用迭代器进行删除。    
 Problem_00072：全排列。    
 Problem_00085：动态规划。   
+Problem_00086：x是2的幂满足 (x & (x - 1)) == 0。   
 Problem_00098：排序，从小到大依次放弃。  
 Problem_00102：栈的运用。因为栈中只用存放'm'，所以可以用一个变量计数来模拟栈。   
 Problem_00107：快速幂+逆元。根据逆元的知识，a / b % MOD 可以表示成 a * b<sup>MOD-2</sup> % MOD。则 f(n) = (3<sup>n+1</sup> - 1) / 2 % MOD 的值为(3<sup>n+1</sup> - 1) * 2<sup>MOD-2</sup> % MOD。  
