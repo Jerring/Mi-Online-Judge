@@ -22,6 +22,7 @@ Problem_00048：简单模拟。
 Problem_00050：简单模拟，也可用单调栈。    
 Problem_00055：DFS。    
 Problem_00057：反推。由A是否可以得到B转换为由B是否可以得到A，这样转换的过程就是确定的。    
+Problem_00061：简单模拟。    
 Problem_00062：括号匹配，栈的应用。    
 Problem_00064：贪心。    
 Problem_00072：全排列。    
