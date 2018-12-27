@@ -51,5 +51,5 @@ Problem_00102：栈的运用。因为栈中只用存放'm'，所以可以用一�
 Problem_00107：快速幂+逆元。根据逆元的知识，a / b % MOD 可以表示成 a * b<sup>MOD-2</sup> % MOD。则 f(n) = (3<sup>n+1</sup> - 1) / 2 % MOD 的值为(3<sup>n+1</sup> - 1) * 2<sup>MOD-2</sup> % MOD。  
 Problem_00110：按要求进行进制转换即可。  
 Problem_00111：RMQ。  
-Problem_00113：从小到大排序，按要求模拟。 
+Problem_00113：从小到大排序，按要求模拟。  
 Problem_00119：简单，按要求模拟。 
